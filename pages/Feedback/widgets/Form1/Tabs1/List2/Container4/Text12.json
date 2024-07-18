@@ -6,9 +6,6 @@
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
-      "key": "text"
-    },
-    {
       "key": "truncateButtonColor"
     },
     {

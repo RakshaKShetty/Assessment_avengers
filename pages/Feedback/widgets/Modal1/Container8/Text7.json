@@ -26,7 +26,7 @@
   "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
   "isDeprecated": false,
   "isLoading": false,
-  "isVisible": true,
+  "isVisible": false,
   "key": "igw8rvep2x",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
