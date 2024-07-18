@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Review</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            max-width: 150px;
+            height: auto;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .button {
+            background-color: #ff8c00;
+            color: #000 ; 
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #e07b00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="{{Image1.image}}" alt="Company Logo">
+        </div>
+        <h3>Hi, you've been invited to the {{appsmith.user.username}}: Appsmith | Performance Review |</h3>
+        <p>Hello,</p>
+        <p>You are receiving this notification as you have a part to play in this review.</p>
+        <p>Here's what you need to do:</p>
+        <ul>
+            <li><strong>Peer Review:</strong> you were nominated as a peer reviewer, please take some time to review your colleagues' achievements and areas of improvement.</li>
+        </ul>
+        <p>Need Help?</p>
+        <p>If you have any questions or need help with the process, don't hesitate to reach out to Tanya or access the helpful resources available on Notion - What Performance review looks like.</p>
+        <p>Let's work together to make this review process a smooth and enriching experience!</p>
+        <div class="button-container">
+            <a href="https://internal.appsmith.com/app/trial-app/feedback-65b78f2d8558d22258bb7e8d?branch=shadab" class="button">Link For Review</a>
+        </div>
+    </div>
+</body>
+</html>

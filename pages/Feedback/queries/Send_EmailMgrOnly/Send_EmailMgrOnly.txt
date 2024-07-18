@@ -1,3 +1,0 @@
-{{appsmith.user.name}} has left feedback for {{MultiSelect1.selectedOptionLabels.toString()}}
-
-{{RichTextEditor2.text}}

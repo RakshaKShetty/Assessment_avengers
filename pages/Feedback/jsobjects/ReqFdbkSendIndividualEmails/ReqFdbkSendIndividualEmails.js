@@ -13,13 +13,13 @@ export default {
 
 			if (value == variableValues[0]) {
 				console.log("Value:",variableValues[0]); 
-				Send_Email0.run();
+				Give_feedback_manageronly.run();
 			} else if (value == variableValues[1]) {
 				console.log("Value:",variableValues[1]); 
-				Send_Email1.run();
+				Give_feedback_mgr_private.run();
 			} else if (value == variableValues[2]) {
 				console.log("Value:",variableValues[2]); 
-				Send_Email2.run();
+				Give_feedback_private.run();
 			}
 			else {
 				console.log("All done!"); // This message will be printed if the temperature is less than 20

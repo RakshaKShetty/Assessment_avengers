@@ -12,23 +12,23 @@ export default {
 				
 				case RadioGroup1.options[0].value:
 					// Task for option 1
-					Send_Email0.run()
+					Give_feedback_manageronly.run()
 
 					break;
 				case RadioGroup1.options[1].value:
 					// Task for option 2
-					Send_EmailPvt.run()
+					Request_feedback_mgr_private.run()
 
 					break;
 				case RadioGroup1.options[2].value:
 					// Task for option 3
-					Send_EmailMgrOnly.run()
+					Request_feedback_manageronly.run()
 
 					break;
 			
 				case RadioGroup1.options[3].value:
 					// Task for option 3
-					Send_EmailPvt_Mgr.run()
+					Request_feedback_private.run()
 
 					break;
 					// Add more cases for additional options as needed
