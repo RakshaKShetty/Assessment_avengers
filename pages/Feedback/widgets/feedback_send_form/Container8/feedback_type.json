@@ -12,11 +12,7 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicPropertyPathList": [
-    {
-      "key": "options"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onSelectionChange"
@@ -45,7 +41,24 @@
   "mobileRightColumn": 22,
   "mobileTopRow": 14,
   "onSelectionChange": "",
-  "options": "[\n  {\n    \"label\": \"Public\",\n    \"value\": \"all appsmith employees\"\n  },\n  {\n    \"label\": \"Private\",\n    \"value\": \"recipient only\"\n  },\n  {\n    \"label\": \"Manager only\",\n    \"value\": \"recipient's manager only\"\n  },\n  {\n    \"label\": \"Private+Manager\",\n    \"value\": \"recipient and their manager\"\n  }\n]",
+  "options": [
+    {
+      "label": "Public",
+      "value": "all appsmith employees"
+    },
+    {
+      "label": "Private",
+      "value": "recipient only"
+    },
+    {
+      "label": "Manager only",
+      "value": "recipient's manager only"
+    },
+    {
+      "label": "Private+Manager",
+      "value": "recipient and their manager"
+    }
+  ],
   "originalBottomRow": 13,
   "originalTopRow": 7,
   "parentColumnSpace": 8.379483342170715,

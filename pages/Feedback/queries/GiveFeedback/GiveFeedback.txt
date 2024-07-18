@@ -1,2 +1,2 @@
-INSERT INTO public."ReceivedFB" ("From_user", "To_user", "FB")
-  VALUES ('{{feedback_owner.text}}', '{{feedback_users.selectedOptionLabels.toString()}}', '{{feedback_content.text}}');
+INSERT INTO public."ReceivedFB" ("From_user", "To_user", "FB", "type")
+  VALUES ('{{feedback_owner.text}}', '{{feedback_users.selectedOptionLabels.toString()}}', '{{feedback_content.text}}','{{feedback_type.selectedOptionValue}}');

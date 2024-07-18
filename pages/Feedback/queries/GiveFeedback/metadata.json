@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO public.\"ReceivedFB\" (\"From_user\", \"To_user\", \"FB\")\n  VALUES ('{{feedback_owner.text}}', '{{feedback_users.selectedOptionLabels.toString()}}', '{{feedback_content.text}}');",
+      "body": "INSERT INTO public.\"ReceivedFB\" (\"From_user\", \"To_user\", \"FB\", \"type\")\n  VALUES ('{{feedback_owner.text}}', '{{feedback_users.selectedOptionLabels.toString()}}', '{{feedback_content.text}}','{{feedback_type.selectedOptionValue}}');",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

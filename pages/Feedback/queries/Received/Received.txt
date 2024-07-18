@@ -1,1 +1,1 @@
-SELECT * FROM public."ReceivedFB" WHERE "ReceivedFB"."To_user" ILIKE '%{{appsmith.user.name}}%' ;
+SELECT * FROM public."ReceivedFB" WHERE "ReceivedFB"."To_user" ILIKE '%{{appsmith.user.name}}%' AND "ReceivedFB"."type" IN ('all appsmith employees', 'recipient only');

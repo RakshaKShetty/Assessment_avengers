@@ -1,1 +1,1 @@
-SELECT * FROM public."ReceivedFB" WHERE "ReceivedFB"."From_user"={{appsmith.user.name}};
+SELECT * FROM public."ReceivedFB" WHERE "ReceivedFB"."From_user"={{appsmith.user.name}} AND "ReceivedFB"."type" IS NOT NULL;
