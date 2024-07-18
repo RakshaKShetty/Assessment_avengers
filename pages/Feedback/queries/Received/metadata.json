@@ -5,12 +5,12 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM public.\"ReceivedFB\" WHERE \"ReceivedFB\".\"To_user\"= {{appsmith.user.name}} ;",
+      "body": "SELECT * FROM public.\"ReceivedFB\" WHERE \"ReceivedFB\".\"To_user\" ILIKE '%{{appsmith.user.name}}%' ;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ],
       "timeoutInMillisecond": 10000
