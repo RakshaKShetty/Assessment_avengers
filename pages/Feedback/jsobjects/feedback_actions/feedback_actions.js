@@ -133,7 +133,7 @@ export default {
 		}
 	},
 
-	receivedFeedbacks() {
+	get receivedFeedbacks() {
 		const received = ReceivedFeedbacksQuery.data;
 		const employees = EmployeeDataCopy.data.reduce((prev, curr) => {
 			prev[curr.email_id] = curr;
@@ -149,7 +149,7 @@ export default {
 		})
 	},
 	
-	givenFeedbacks() {
+	get givenFeedbacks() {
 		const given = GivenFeedbacksQuery.data;
 		const employees = EmployeeDataCopy.data.reduce((prev, curr) => {
 			prev[curr.email_id] = curr;
