@@ -1,1 +1,1 @@
-SELECT * FROM public."ReceivedFB" WHERE "ReceivedFB"."From_user"='Aparna';
+SELECT * FROM public."ReceivedFB" WHERE "ReceivedFB"."From_user"={{appsmith.user.name}};

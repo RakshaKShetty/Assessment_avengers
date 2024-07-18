@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM public.\"ReceivedFB\" WHERE \"ReceivedFB\".\"To_user\" LIKE '%Aparna R%';",
+      "body": "SELECT * FROM public.\"ReceivedFB\" WHERE \"ReceivedFB\".\"To_user\"= {{appsmith.user.name}} ;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,7 +22,11 @@
       "name": "Feedbackdb",
       "pluginId": "postgres-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "executeOnLoad": true,
     "name": "Received",
     "pageId": "Feedback",
