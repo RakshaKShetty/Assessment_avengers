@@ -27,16 +27,19 @@ export default {
 						// Private
 					case feedback_type.options[1].value:{
 						return Give_feedback_private.run()
+					return	Slack_message_giveFeedback.give_feedbackPrivateOnly_slack() 
 					}
 
 						// Manager only
 					case feedback_type.options[2].value:{
 						return Give_feedback_manageronly.run()
+						// return Slack_message_giveFeedback.give_feedbackManagerOnly_Slack()
 					}
 
 						// Private + Manager
 					case feedback_type.options[3].value:{
 						return Give_feedback_mgr_private.run()
+					//	return Slack_message_giveFeedback.give_feedbackPrivateMgr_slack()
 					}
 
 						// Add more cases for additional options as needed
@@ -78,17 +81,20 @@ export default {
 				switch (request_feedback_type.selectedOptionValue) {
 					// Private 
 					case options[0].value: {
-						return Request_feedback_private.run();
+						return Request_feedback_private.run()
+					//	return Slack_message_requestFeedback.request_feedbackPrivate_Slack()
 					}
 
 					// Private + Manager
 					case options[1].value: {
-						return Request_feedback_mgr_private.run();
+						return Request_feedback_mgr_private.run()
+					//	return Slack_message_requestFeedback.request_feedbackPrivateMgr_Slack()
 					}
 
 					// Manager Only
 					case options[2].value: {
 						return Request_feedback_manageronly.run()
+					//	return Slack_message_requestFeedback.request_feedbackManagerOnly_slack()
 					}
 
 						// Add more cases for additional options as needed
