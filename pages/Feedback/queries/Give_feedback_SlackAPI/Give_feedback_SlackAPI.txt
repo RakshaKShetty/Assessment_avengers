@@ -1,0 +1,4 @@
+{ "message" : "Hey , You have been given feedback by {{appsmith.user.username}}  
+  {{feedback_content.text}}" ,
+  "user_emails": {{this.params.email}}
+}

@@ -1,3 +1,0 @@
-{ "message" : "Hey , You have been requested to give feedback for {{appsmith.user.username}} " ,
-  "user_emails":  '{{feedback_users.selectedOptionValues[0]}}'
-}

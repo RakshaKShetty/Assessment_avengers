@@ -1,6 +1,6 @@
 {
   "gitSyncId": "6698d5e343d23d0c40dfd100_a4c55c27-1214-4403-bcc6-c1fb4f1eb222",
-  "id": "Feedback_FeedbackAPIPrivate",
+  "id": "Feedback_Give_feedback_SlackAPI",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{ \"message\" : \"Hey , You have been requested to give feedback for {{appsmith.user.username}} \" ,\n  \"user_emails\":  '{{feedback_users.selectedOptionValues[0]}}'\n}",
+      "body": "{ \"message\" : \"Hey , You have been given feedback by {{appsmith.user.username}}  \n  {{feedback_content.text}}\" ,\n  \"user_emails\": {{this.params.email}}\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -42,7 +42,7 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "FeedbackAPIPrivate",
+    "name": "Give_feedback_SlackAPI",
     "pageId": "Feedback",
     "userSetOnLoad": false
   }
