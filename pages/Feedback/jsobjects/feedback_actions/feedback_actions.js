@@ -86,8 +86,8 @@ export default {
 				switch (request_feedback_type.selectedOptionValue) {
 						// Private 
 					case options[0].value: {
-						return Request_feedback_private.run()
-						//	return Slack_message_requestFeedback.request_feedbackPrivate_Slack()
+						 Request_feedback_private.run()
+							return Slack_message_requestFeedback.request_feedbackPrivate_Slack()
 					}
 
 						// Private + Manager
