@@ -3,11 +3,11 @@
   "backgroundColor": "#FFFFFF",
   "borderColor": "#E0DEDE",
   "borderWidth": "",
-  "bottomRow": 90,
+  "bottomRow": 87,
   "boxShadow": "NONE",
   "children": [
     {
-      "bottomRow": 820,
+      "bottomRow": 790,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
@@ -50,7 +50,7 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,
-  "originalBottomRow": 85,
+  "originalBottomRow": 90,
   "originalTopRow": 8,
   "parentColumnSpace": 8.792081117630005,
   "parentId": "akjcnrrgq5",

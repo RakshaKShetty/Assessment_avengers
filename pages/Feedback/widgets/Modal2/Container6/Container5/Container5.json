@@ -3,11 +3,11 @@
   "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderColor": "#E0DEDE",
   "borderWidth": "1",
-  "bottomRow": 75,
+  "bottomRow": 72,
   "boxShadow": "NONE",
   "children": [
     {
-      "bottomRow": 600,
+      "bottomRow": 570,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
@@ -54,7 +54,7 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,
-  "originalBottomRow": 70,
+  "originalBottomRow": 75,
   "originalTopRow": 15,
   "parentColumnSpace": 8.792081117630005,
   "parentId": "mwgcwgf5yy",

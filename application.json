@@ -26,12 +26,8 @@
   "icon": "cat",
   "pages": [
     {
-      "id": "Trial",
-      "isDefault": true
-    },
-    {
       "id": "Feedback",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Public.employee",
