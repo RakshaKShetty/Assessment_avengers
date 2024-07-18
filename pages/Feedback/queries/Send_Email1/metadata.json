@@ -14,7 +14,7 @@
           "bcc": "",
           "bodyType": "text/plain",
           "cc": "",
-          "from": "{{appsmith.user.username}}",
+          "from": "raksha@appsmith.com",
           "subject": "Feedback request",
           "to": "{{MultiSelect2.selectedOptionValues[1].toString()}}"
         }
@@ -32,9 +32,6 @@
     "dynamicBindingPathList": [
       {
         "key": "body"
-      },
-      {
-        "key": "formData.send.from"
       },
       {
         "key": "formData.send.to"

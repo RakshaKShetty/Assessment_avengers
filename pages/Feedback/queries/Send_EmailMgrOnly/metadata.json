@@ -13,7 +13,7 @@
           "attachments": "",
           "bodyType": "text/plain",
           "cc": "",
-          "from": "aparna@appsmith.com",
+          "from": "raksha@appsmith.com",
           "subject": "Feedback request",
           "to": "{{ManagerEmail.data[0].manager_email}}"
         }
