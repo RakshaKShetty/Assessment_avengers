@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6698d5e343d23d0c40dfd100_78fe460b-d282-4e1e-a538-0d914d9a143a",
+  "id": "Feedback_Slack_message_giveFeedback",
+  "unpublishedCollection": {
+    "name": "Slack_message_giveFeedback",
+    "pageId": "Feedback",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
