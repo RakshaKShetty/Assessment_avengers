@@ -13,12 +13,12 @@ export default {
 		},
 			
 	async give_feedbackPrivateOnly_slack () {
-		const a = feedback_users.selectedOptionLabels
+		const a = feedback_users.selectedOptionValues
 	   
 for (let i = 0; i < a.length; i++) 
 {
   //const b = await Query1.run()
-	  const email =  feedback_users.selectedOptionLabels[i]
+	  const email =  feedback_users.selectedOptionValues[i]
 		//console.log(email)
 	Give_feedback_SlackAPI.run({email :email})
 }

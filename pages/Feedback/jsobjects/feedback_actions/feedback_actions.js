@@ -26,7 +26,7 @@ export default {
 
 						// Private
 					case feedback_type.options[1].value:{
-						return Give_feedback_private.run()
+						 Give_feedback_private.run()
 						return	Slack_message_giveFeedback.give_feedbackPrivateOnly_slack() 
 					}
 

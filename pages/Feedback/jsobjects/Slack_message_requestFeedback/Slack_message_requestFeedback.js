@@ -27,7 +27,7 @@ await	Request_feedback_SlackAPI.run({email :email})
 	 
 async request_feedbackManagerOnly_slack()
 		{
-		const a = request_feedback_users.selectedOptionLabels
+		const a = request_feedback_users.selectedOptionValues
 for (let i = 0; i < a.length; i++) 
 {
   //const b = await Query1.run()
@@ -42,7 +42,7 @@ for (let i = 0; i < a.length; i++)
 }
 							},
 	async request_feedbackPrivateMgr_Slack () {
-		const a = request_feedback_users.selectedOptionLabels
+		const a = request_feedback_users.selectedOptionValues
 for (let i = 0; i < a.length; i++) 
 {
   //const b = await Query1.run()
