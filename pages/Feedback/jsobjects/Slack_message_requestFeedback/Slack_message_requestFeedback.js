@@ -34,11 +34,11 @@ for (let i = 0; i < a.length; i++)
 	const emailmanager =	await ManagerEmail.run()
 						   const email = emailmanager[i].email.toString()
 						//	 console.log (email)
-							 return Request_feedback_SlackAPI.run({email: email})
+						//	 return Request_feedback_SlackAPI.run({email: email})
 	
-	 // const email1 =  request_feedback_users.selectedOptionValues[i]
+	 const email1 =  request_feedback_users.selectedOptionValues[i]
 		//console.log(email)
-	//Request_feedback_API.run({email :email1})
+	Request_feedback_SlackAPI.run({email :email1})
 }
 							},
 	async request_feedbackPrivateMgr_Slack () {
@@ -49,7 +49,7 @@ for (let i = 0; i < a.length; i++)
 	const emailmanager =	await ManagerEmail.run()
 						   const email = emailmanager[i].email.toString()
 						//	 console.log (email)
-							 return Request_feedback_SlackAPI.run({email: email})
+						//	 return Request_feedback_SlackAPI.run({email: email})
 	
 	  const email1 =  request_feedback_users.selectedOptionValues[i]
 		//console.log(email)
