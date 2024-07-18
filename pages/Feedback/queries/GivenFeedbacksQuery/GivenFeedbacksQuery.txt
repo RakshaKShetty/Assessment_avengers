@@ -1,0 +1,6 @@
+SELECT * FROM public."ReceivedFB"
+WHERE
+	"ReceivedFB"."From_user"='{{appsmith.user.email}}'
+	AND "ReceivedFB"."type" IS NOT NULL
+ORDER BY
+	created_at DESC;

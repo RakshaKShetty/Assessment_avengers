@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "65b78df28558d22258bb7e7d_65ca28a5a729be26d52d0a35",
-  "id": "Feedback_Given",
+  "gitSyncId": "6698d5e343d23d0c40dfd100_492ad644-0d8a-4941-ba7f-f4c29db13c7c",
+  "id": "Feedback_testing_ignore",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM public.\"ReceivedFB\" WHERE \"ReceivedFB\".\"From_user\"={{appsmith.user.name}} AND \"ReceivedFB\".\"type\" IS NOT NULL;",
+      "body": "SELECT * FROM public.\"ReceivedFB\";",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,13 +22,9 @@
       "name": "Feedbackdb",
       "pluginId": "postgres-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
-    "executeOnLoad": true,
-    "name": "Given",
+    "dynamicBindingPathList": [],
+    "executeOnLoad": false,
+    "name": "testing_ignore",
     "pageId": "Feedback",
     "userSetOnLoad": false
   }

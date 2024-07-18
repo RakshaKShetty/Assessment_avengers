@@ -105,7 +105,7 @@
   "itemSpacing": 8,
   "key": "1z6316act9",
   "leftColumn": 0,
-  "listData": "{{Received.data}}",
+  "listData": "{{feedback_actions.receivedFeedbacks.data}}",
   "mainCanvasId": "22o2p7u0q8",
   "mainContainerId": "65f2ddtraf",
   "minWidth": 450,

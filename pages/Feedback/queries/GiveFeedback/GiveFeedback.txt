@@ -1,2 +1,2 @@
-INSERT INTO public."ReceivedFB" ("From_user", "To_user", "FB", "type")
-  VALUES ('{{feedback_owner.text}}', '{{feedback_users.selectedOptionLabels.toString()}}', '{{feedback_content.text}}','{{feedback_type.selectedOptionValue}}');
+INSERT INTO public."ReceivedFB" ("From_user", "To_user", "FB", "type", "created_at")
+  VALUES ('{{appsmith.user.email}}', '{{feedback_users.selectedOptionValues.toString()}}', '{{feedback_content.text}}','{{feedback_type.selectedOptionValue}}', CURRENT_TIMESTAMP);

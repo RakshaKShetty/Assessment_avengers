@@ -1,16 +1,16 @@
 {
-  "gitSyncId": "65b78df28558d22258bb7e7d_65d35c8d0b90712f71f47f38",
+  "gitSyncId": "6698d5e343d23d0c40dfd100_fe393b0e-9e6b-4459-a08e-0bff8d51dc0b",
   "id": "Feedback_EmployeeDataCopy",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * from employee",
+      "body": "SELECT * FROM public.\"employee\";",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ],
       "timeoutInMillisecond": 10000

@@ -1,1 +1,1 @@
-SELECT * FROM public."Request_Feedback";
+SELECT * FROM public."Request_Feedback" WHERE "Request_Feedback"."From_user"='{{appsmith.user.email}}';

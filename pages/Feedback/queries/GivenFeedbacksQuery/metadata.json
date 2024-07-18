@@ -1,16 +1,16 @@
 {
-  "gitSyncId": "65b78df28558d22258bb7e7d_65c4afb72f318d4824390ece",
-  "id": "Feedback_Received",
+  "gitSyncId": "65b78df28558d22258bb7e7d_65ca28a5a729be26d52d0a35",
+  "id": "Feedback_GivenFeedbacksQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM public.\"ReceivedFB\" WHERE \"ReceivedFB\".\"To_user\" ILIKE '%{{appsmith.user.name}}%' AND \"ReceivedFB\".\"type\" IN ('all appsmith employees', 'recipient only');",
+      "body": "SELECT * FROM public.\"ReceivedFB\"\nWHERE\n\t\"ReceivedFB\".\"From_user\"='{{appsmith.user.email}}'\n\tAND \"ReceivedFB\".\"type\" IS NOT NULL\nORDER BY\n\tcreated_at DESC;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ],
       "timeoutInMillisecond": 10000
@@ -28,7 +28,7 @@
       }
     ],
     "executeOnLoad": true,
-    "name": "Received",
+    "name": "GivenFeedbacksQuery",
     "pageId": "Feedback",
     "userSetOnLoad": false
   }

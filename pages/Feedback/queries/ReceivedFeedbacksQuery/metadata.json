@@ -1,16 +1,16 @@
 {
-  "gitSyncId": "65b78df28558d22258bb7e7d_65d34a13737a421d06fa139b",
-  "id": "Feedback_RequestFB",
+  "gitSyncId": "65b78df28558d22258bb7e7d_65c4afb72f318d4824390ece",
+  "id": "Feedback_ReceivedFeedbacksQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO public.\"Request_Feedback\" (\"created_at\", \"From_user\", \"To_user\", \"FBPrompts\", \"type\")\n  VALUES (TIMESTAMP '2019-07-01 10:00:00', '{{appsmith.user.username}}', '{{request_feedback_users.selectedOptionLabels.toString()}}', '{{request_feedback_content.text}}', '{{request_feedback_type.selectedOptionValue}}');",
+      "body": "SELECT * FROM public.\"ReceivedFB\"\nWHERE \"ReceivedFB\".\"To_user\"='{{appsmith.user.email}}'\nAND \"ReceivedFB\".\"type\" IN ('public', 'private', 'private_manager');",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ],
       "timeoutInMillisecond": 10000
@@ -27,8 +27,8 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
-    "name": "RequestFB",
+    "executeOnLoad": true,
+    "name": "ReceivedFeedbacksQuery",
     "pageId": "Feedback",
     "userSetOnLoad": false
   }

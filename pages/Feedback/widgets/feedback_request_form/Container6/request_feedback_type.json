@@ -4,7 +4,7 @@
   "animateLoading": true,
   "bottomRow": 11,
   "boxShadow": "none",
-  "defaultOptionValue": "you only",
+  "defaultOptionValue": "private",
   "displayName": "Radio Group",
   "dynamicBindingPathList": [
     {
@@ -12,7 +12,11 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "options"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "start",
   "hideCard": false,
@@ -36,20 +40,7 @@
   "mobileLeftColumn": 2,
   "mobileRightColumn": 22,
   "mobileTopRow": 14,
-  "options": [
-    {
-      "label": "Private",
-      "value": "you only"
-    },
-    {
-      "label": "Private + Manager",
-      "value": "you and your manager"
-    },
-    {
-      "label": "Manager only",
-      "value": "your manager only"
-    }
-  ],
+  "options": "[\n  {\n    \"label\": \"Private\",\n    \"value\": \"private\",\n\t\t\"description\": \"you only\"\n  },\n  {\n    \"label\": \"Private + Manager\",\n    \"value\": \"private_manager\",\n\t\t\"description\": \"you and your manager\"\n  },\n  {\n    \"label\": \"Manager only\",\n    \"value\": \"your manager only\",\n\t\t\"description\": \"manager\"\n  }\n]",
   "originalBottomRow": 12,
   "originalTopRow": 6,
   "parentColumnSpace": 8.792081117630005,

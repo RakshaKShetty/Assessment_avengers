@@ -16,7 +16,7 @@
           "cc": "",
           "from": "raksha@appsmith.com",
           "subject": "{{appsmith.user.username}} left feedback for {{feedback_users.selectedOptionValues[0]}}",
-          "to": "shadab@appsmith.com"
+          "to": "{{ManagerEmail.data[0].manager_email}}"
         }
       },
       "paginationType": "NONE",
@@ -35,6 +35,9 @@
       },
       {
         "key": "body"
+      },
+      {
+        "key": "formData.send.to"
       }
     ],
     "executeOnLoad": false,

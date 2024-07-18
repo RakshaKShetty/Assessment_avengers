@@ -27,7 +27,7 @@ export default {
 						// Private
 					case feedback_type.options[1].value:{
 						return Give_feedback_private.run()
-					return	Slack_message_giveFeedback.give_feedbackPrivateOnly_slack() 
+						return	Slack_message_giveFeedback.give_feedbackPrivateOnly_slack() 
 					}
 
 						// Manager only
@@ -39,7 +39,7 @@ export default {
 						// Private + Manager
 					case feedback_type.options[3].value:{
 						return Give_feedback_mgr_private.run()
-					//	return Slack_message_giveFeedback.give_feedbackPrivateMgr_slack()
+						//	return Slack_message_giveFeedback.give_feedbackPrivateMgr_slack()
 					}
 
 						// Add more cases for additional options as needed
@@ -63,7 +63,12 @@ export default {
 			// reset all input
 			resetWidget("feedback_users", true);
 			resetWidget("feedback_type", true);
-			resetWidget("feedback_content", true)
+			resetWidget("feedback_content", true);
+
+			// re-fetch given feedbacks
+			GivenFeedbacksQuery.run();
+			// re-fetch received feedbacks
+			ReceivedFeedbacksQuery.run();
 		} catch(err) {
 			console.error(err)
 			showAlert('Unable to submit feedback', 'error');
@@ -73,28 +78,28 @@ export default {
 	async request() {
 		try {
 			// insertion of request feedback to DB
-			await RequestFB.run();;
+			await RequestFeedback.run();;
 
 			const options = request_feedback_type.options;			
 			const sendEmail = (() => {
 				// Perform task based on the selected value
 				switch (request_feedback_type.selectedOptionValue) {
-					// Private 
+						// Private 
 					case options[0].value: {
 						return Request_feedback_private.run()
-					//	return Slack_message_requestFeedback.request_feedbackPrivate_Slack()
+						//	return Slack_message_requestFeedback.request_feedbackPrivate_Slack()
 					}
 
-					// Private + Manager
+						// Private + Manager
 					case options[1].value: {
 						return Request_feedback_mgr_private.run()
-					//	return Slack_message_requestFeedback.request_feedbackPrivateMgr_Slack()
+						//	return Slack_message_requestFeedback.request_feedbackPrivateMgr_Slack()
 					}
 
-					// Manager Only
+						// Manager Only
 					case options[2].value: {
 						return Request_feedback_manageronly.run()
-					//	return Slack_message_requestFeedback.request_feedbackManagerOnly_slack()
+						//	return Slack_message_requestFeedback.request_feedbackManagerOnly_slack()
 					}
 
 						// Add more cases for additional options as needed
@@ -126,5 +131,37 @@ export default {
 			console.error(err)
 			showAlert('Unable to request feedback', 'error');
 		}
+	},
+
+	receivedFeedbacks() {
+		const received = ReceivedFeedbacksQuery.data;
+		const employees = EmployeeDataCopy.data.reduce((prev, curr) => {
+			prev[curr.email_id] = curr;
+
+			return prev;
+		}, {})
+		return received.map((feedback) => {
+			return {
+				...feedback,
+				from: employees[feedback.From_user]?.name,
+				to: employees[feedback.To_user]?.name
+			}
+		})
+	},
+	
+	givenFeedbacks() {
+		const given = GivenFeedbacksQuery.data;
+		const employees = EmployeeDataCopy.data.reduce((prev, curr) => {
+			prev[curr.email_id] = curr;
+
+			return prev;
+		}, {})
+		return given.map((feedback) => {
+			return {
+				...feedback,
+				from: employees[feedback.From_user]?.name,
+				to: employees[feedback.To_user]?.name
+			}
+		})
 	}
 }
