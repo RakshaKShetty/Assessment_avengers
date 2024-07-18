@@ -14,9 +14,16 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
     }
   ],
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -26,7 +33,7 @@
   "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
   "isDefaultClickDisabled": true,
   "isDeprecated": false,
-  "isDisabled": false,
+  "isDisabled": "{{request_feedback_users.selectedOptionLabels.length==0 || request_feedback_content.text.length==0}}",
   "isLoading": false,
   "isVisible": true,
   "key": "gl08pzcouq",
