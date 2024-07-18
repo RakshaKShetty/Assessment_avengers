@@ -2,10 +2,7 @@ export default {
 	myVar1: [],
 	myVar2: {},
 	myFun1 () { 
-
-
-		var variableValues = MultiSelect2.selectedOptionValues
-
+		
 		// Perform an action for each value in the variable using a for loop
 		for (let i = 0; i < variableValues.length; i++) {
 			let value = variableValues[i];

@@ -1,2 +1,2 @@
 INSERT INTO public."ReceivedFB" ("From_user", "To_user", "FB")
-  VALUES ('{{Text7.text}}', '{{MultiSelect1.selectedOptionLabels.toString()}}', '{{RichTextEditor2.text}}');
+  VALUES ('{{feedback_owner.text}}', '{{feedback_users.selectedOptionLabels.toString()}}', '{{feedback_content.text}}');

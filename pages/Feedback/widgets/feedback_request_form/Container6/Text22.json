@@ -57,7 +57,7 @@
     "Suggested",
     "Content"
   ],
-  "text": "This feedback will be shared with {{RadioGroup2.selectedOptionValue}}",
+  "text": "This feedback will be shared with {{request_feedback_type.selectedOptionValue}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 11,

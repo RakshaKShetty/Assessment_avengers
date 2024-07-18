@@ -51,7 +51,7 @@
     "Suggested",
     "Content"
   ],
-  "text": "You have successfully submitted feedback about {{MultiSelect1.selectedOptionLabels.toString()}}!!! ",
+  "text": "You have successfully submitted feedback about {{feedback_users.selectedOptionLabels.toString()}}!!! ",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 4,

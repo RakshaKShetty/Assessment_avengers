@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6698d5e343d23d0c40dfd100_67de30e0-fd23-433c-bb61-88d6a0fcba81",
+  "id": "Feedback_feedback_actions",
+  "unpublishedCollection": {
+    "name": "feedback_actions",
+    "pageId": "Feedback",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

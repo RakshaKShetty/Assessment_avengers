@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO public.\"Request_Feedback\" (\"created_at\", \"From_user\", \"To_user\", \"FBPrompts\")\n  VALUES (TIMESTAMP '2019-07-01 10:00:00', '{{appsmith.user.username}}', '{{MultiSelect2.selectedOptionLabels.toString()}}', '{{RichTextEditor1.text}}');",
+      "body": "INSERT INTO public.\"Request_Feedback\" (\"created_at\", \"From_user\", \"To_user\", \"FBPrompts\")\n  VALUES (TIMESTAMP '2019-07-01 10:00:00', '{{appsmith.user.username}}', '{{request_feedback_users.selectedOptionLabels.toString()}}', '{{request_feedback_content.text}}');",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

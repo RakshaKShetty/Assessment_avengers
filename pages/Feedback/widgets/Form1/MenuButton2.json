@@ -50,7 +50,7 @@
       "isDisabled": false,
       "isVisible": true,
       "label": "Give Feedback",
-      "onClick": "{{showModal('Modal1');}}",
+      "onClick": "{{showModal(feedback_send_form.name);}}",
       "widgetId": ""
     },
     "menuItem2": {
@@ -59,7 +59,7 @@
       "isDisabled": false,
       "isVisible": true,
       "label": "Request Feedback",
-      "onClick": "{{showModal('Modal2');}}",
+      "onClick": "{{showModal(feedback_request_form.name);}}",
       "widgetId": ""
     }
   },

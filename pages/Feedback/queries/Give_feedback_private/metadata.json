@@ -16,7 +16,7 @@
           "cc": "",
           "from": "raksha@appsmith.com",
           "subject": "{{appsmith.user.username}} left feedback for you",
-          "to": "{{MultiSelect1.selectedOptionValues.toLocaleString()}}"
+          "to": "{{feedback_users.selectedOptionValues.toLocaleString()}}"
         }
       },
       "paginationType": "NONE",
@@ -34,10 +34,10 @@
         "key": "body"
       },
       {
-        "key": "formData.send.to"
+        "key": "formData.send.subject"
       },
       {
-        "key": "formData.send.subject"
+        "key": "formData.send.to"
       }
     ],
     "executeOnLoad": false,

@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO public.\"ReceivedFB\" (\"From_user\", \"To_user\", \"FB\")\n  VALUES ('{{Text7.text}}', '{{MultiSelect1.selectedOptionLabels.toString()}}', '{{RichTextEditor2.text}}');",
+      "body": "INSERT INTO public.\"ReceivedFB\" (\"From_user\", \"To_user\", \"FB\")\n  VALUES ('{{feedback_owner.text}}', '{{feedback_users.selectedOptionLabels.toString()}}', '{{feedback_content.text}}');",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

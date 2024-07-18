@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{ \"message\" : \"Hey , You have been requested to give feedback for {{appsmith.user.username}} \" ,\n  \"user_emails\":  '{{MultiSelect1.selectedOptionValues[0]}}'\n}",
+      "body": "{ \"message\" : \"Hey , You have been requested to give feedback for {{appsmith.user.username}} \" ,\n  \"user_emails\":  '{{feedback_users.selectedOptionValues[0]}}'\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

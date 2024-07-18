@@ -16,7 +16,7 @@
           "cc": "",
           "from": "raksha@appsmith.com",
           "subject": "Feedback request",
-          "to": "{{MultiSelect1.selectedOptionValues.toLocaleString()}}"
+          "to": "{{request_feedback_users.selectedOptionValues.toLocaleString()}}"
         }
       },
       "paginationType": "NONE",

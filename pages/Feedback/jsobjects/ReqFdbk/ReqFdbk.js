@@ -3,10 +3,10 @@ export default {
 	myVar2: {},
 	myFun1 () { 
 		// Get the radio group element
-		var radioGroup = document.getElementById(RadioGroup2);
+		var radioGroup = document.getElementById(request_feedback_type);
 
 		{
-			var selectedValue = RadioGroup2.selectedOptionValue;
+			var selectedValue = request_feedback_type.selectedOptionValue;
 			// Perform task based on the selected value
 			switch (selectedValue) {
 				
@@ -15,17 +15,17 @@ export default {
 			//		Send_Email.run()
 
 		//			break;
-				case RadioGroup2.options[0].value:
+				case request_feedback_type.options[0].value:
 					// Task for option 2
 					Request_feedback_mgr_private.run()
 					break;
 				
-				case RadioGroup2.options[1].value:
+				case request_feedback_type.options[1].value:
 					// Task for option 3
 					Request_feedback_private.run()			
 					break;
 			
-				case RadioGroup1.options[2].value:
+				case feedback_type.options[2].value:
 					// Task for option 3
 					Request_feedback_manageronly.run()
 					break;

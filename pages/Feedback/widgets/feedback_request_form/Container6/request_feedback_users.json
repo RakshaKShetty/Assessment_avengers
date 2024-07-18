@@ -18,11 +18,7 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
-    {
-      "key": "sourceData"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [],
   "hideCard": false,
   "iconSVG": "/static/media/icon.801e0376f5d71c420e7b490da23a44a6.svg",
@@ -36,7 +32,7 @@
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "BOLD",
-  "labelText": "Who's the feedback about?",
+  "labelText": "Who do you want to ask for feedback",
   "labelTextColor": "#231f20",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
@@ -44,14 +40,15 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 21,
+  "mobileBottomRow": 13,
   "mobileLeftColumn": 2,
   "mobileRightColumn": 22,
-  "mobileTopRow": 14,
+  "mobileTopRow": 6,
+  "onDropdownOpen": "{{}}",
   "optionLabel": "name",
   "optionValue": "email_id",
-  "parentColumnSpace": 8.379483342170715,
-  "parentId": "0of03xt7m0",
+  "parentColumnSpace": 8.792081117630005,
+  "parentId": "mwgcwgf5yy",
   "parentRowSpace": 10,
   "placeholderText": "Type their names...",
   "renderMode": "CANVAS",
@@ -69,6 +66,6 @@
   "topRow": 0,
   "type": "MULTI_SELECT_WIDGET_V2",
   "version": 1,
-  "widgetId": "h134zjnrd7",
-  "widgetName": "MultiSelect1"
+  "widgetId": "cu5as7afhm",
+  "widgetName": "request_feedback_users"
 }
