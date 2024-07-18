@@ -61,14 +61,6 @@
       "label": "Request Feedback",
       "onClick": "{{showModal('Modal2');}}",
       "widgetId": ""
-    },
-    "menuItem3": {
-      "id": "menuItem3",
-      "index": 2,
-      "isDisabled": false,
-      "isVisible": true,
-      "label": "Write a Private Note",
-      "widgetId": ""
     }
   },
   "menuItemsSource": "STATIC",
