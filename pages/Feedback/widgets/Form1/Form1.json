@@ -1,6 +1,6 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#FFFFFF",
+  "backgroundColor": "linear-gradient(-45deg, #ee7752, #508C9B, #134B70, #201E43);background-size: 400% 400%;animation: grad 15s ease infinite;} @keyframes grad { \t0% { \t\tbackground-position: 0% 50%; \t} \t50% { \t\tbackground-position: 100% 50%; \t} \t100% { \t\tbackground-position: 0% 50%; \t} }",
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
@@ -62,6 +62,12 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "backgroundColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "hideCard": false,
   "iconSVG": "/static/media/icon.e17c486a34778f3bae299c9110e00cf6.svg",
