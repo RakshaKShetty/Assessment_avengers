@@ -57,7 +57,7 @@
   ],
   "text": "{{appsmith.user.name || appsmith.user.email}}",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "#0891b2",
   "topRow": 15,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
