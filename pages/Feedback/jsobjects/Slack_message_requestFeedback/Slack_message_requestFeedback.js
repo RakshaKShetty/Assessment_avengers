@@ -9,8 +9,9 @@ for (let i = 0; i < a.length; i++)
 	  const email =  request_feedback_users.selectedOptionValues[i]
 		let message = "You have a feedback request from "
 		const selectedname = appsmith.user.username
+		let detailmessage = request_feedback_content.text.replace(/<\/?[^>]+(>|$)/g, "")
 	//console.log(email)
-	Request_feedback_SlackAPI.run({ email: email ,message :message ,selectedname : selectedname})
+	Request_feedback_SlackAPI.run({ email: email ,message :message ,selectedname : selectedname, detailmessage : detailmessage})
 
 		
 						
@@ -31,7 +32,8 @@ for (let i = 0; i < a.length; i++)
 	const email2 = 'kamakshi@appsmith.com'
 	let message = "You have received this feedback request as manager of "
 		const selectedname = request_feedback_users.selectedOptionValues[i]
-							 	Request_feedback_SlackAPI.run({ email: email2 ,message :message ,selectedname : selectedname})
+		let detailmessage1 = request_feedback_content.text.replace(/<\/?[^>]+(>|$)/g, "")
+	Request_feedback_SlackAPI.run({ email: email2 ,message :message ,selectedname : selectedname , detailmessage : detailmessage1})
 						//	 console.log (email)
 							// return Request_feedback_SlackAPI.run({email: email})
 	
@@ -52,7 +54,8 @@ for (let i = 0; i < a.length; i++)
 	const email2 = 'kamakshi@appsmith.com'
 	let message2 = "You have received this feedback request as manager of "
 		const selectedname = request_feedback_users.selectedOptionValues[i]
-							 	Request_feedback_SlackAPI.run({ email: email2 ,message :message2 ,selectedname : selectedname})
+		let detailmessage1 = request_feedback_content.text.replace(/<\/?[^>]+(>|$)/g, "")
+							 	Request_feedback_SlackAPI.run({ email: email2 ,message :message2 ,selectedname : selectedname , detailmessage : detailmessage1})
 						//	 console.log (email)
 							// return Request_feedback_SlackAPI.run({email: email})
 	
@@ -60,7 +63,8 @@ for (let i = 0; i < a.length; i++)
 		//console.log(email)
 	let message1 = "You have a feedback request from "
 	const selectedname1 = appsmith.user.username
-	Request_feedback_SlackAPI.run({ email: email1 ,message :message1 ,selectedname : selectedname1})
+	let detailmessage2 = request_feedback_content.text.replace(/<\/?[^>]+(>|$)/g, "")
+	Request_feedback_SlackAPI.run({ email: email1 ,message :message1 ,selectedname : selectedname1 , detailmessage: detailmessage2})
 }
 		
 	},
