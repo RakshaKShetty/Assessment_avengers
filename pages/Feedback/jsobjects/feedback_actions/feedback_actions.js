@@ -21,7 +21,7 @@ export default {
 						// Public
 					case feedback_type.options[0].value:{
 						// TODO: hook up to correct email action
-						return Promise.reject()
+						return Give_Public_Feedback_Slack.run()
 					}
 
 						// Private
@@ -32,14 +32,14 @@ export default {
 
 						// Manager only
 					case feedback_type.options[2].value:{
-						return Give_feedback_manageronly.run()
-						// return Slack_message_giveFeedback.give_feedbackManagerOnly_Slack()
+						 Give_feedback_manageronly.run()
+						 return Slack_message_giveFeedback.give_feedbackManagerOnly_Slack()
 					}
 
 						// Private + Manager
 					case feedback_type.options[3].value:{
-						return Give_feedback_mgr_private.run()
-						//	return Slack_message_giveFeedback.give_feedbackPrivateMgr_slack()
+						 Give_feedback_mgr_private.run()
+						return Slack_message_giveFeedback.give_feedbackPrivateMgr_slack()
 					}
 
 						// Add more cases for additional options as needed
@@ -92,14 +92,14 @@ export default {
 
 						// Private + Manager
 					case options[1].value: {
-						return Request_feedback_mgr_private.run()
-						//	return Slack_message_requestFeedback.request_feedbackPrivateMgr_Slack()
+						 Request_feedback_mgr_private.run()
+						return Slack_message_requestFeedback.request_feedbackPrivateMgr_Slack()
 					}
 
 						// Manager Only
 					case options[2].value: {
-						return Request_feedback_manageronly.run()
-						//	return Slack_message_requestFeedback.request_feedbackManagerOnly_slack()
+						 Request_feedback_manageronly.run()
+							return Slack_message_requestFeedback.request_feedbackManagerOnly_slack()
 					}
 
 						// Add more cases for additional options as needed
