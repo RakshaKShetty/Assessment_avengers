@@ -56,8 +56,8 @@
         <div class="logo">
             <img src="https://internal.appsmith.com/api/v1/assets/64802d7d100b590b196f2ce3" alt="Company Logo">
         </div>
-        <h2>Hi, you are receiving this email as {{appsmith.user.username}} has provided a private feedback for you and your manager </h2>
-       <h3>Please click on the below button to see the detailed feedback</h3>
+        <h3>Hi, you are receiving this email as {{appsmith.user.username}} has provided a private feedback for you and your manager </h3>
+       <p>Please click on the below button to see the detailed feedback</p>
         <div class="button-container">
             <a href="https://internal.appsmith.com/app/assessment-avengers/feedback-6698d5e843d23d0c40dfd115?branch=master" class="button">Link For Review</a>
         </div>
