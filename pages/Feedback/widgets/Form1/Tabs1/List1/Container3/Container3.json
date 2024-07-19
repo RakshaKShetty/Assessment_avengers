@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "backgroundColor": "#f1f5f9",
-  "borderColor": "#E0DEDE",
+  "borderColor": "{{appsmith.theme.colors.primaryColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
   "bottomRow": 14,
@@ -62,6 +62,9 @@
     },
     {
       "key": "boxShadow"
+    },
+    {
+      "key": "borderColor"
     }
   ],
   "dynamicHeight": "FIXED",
