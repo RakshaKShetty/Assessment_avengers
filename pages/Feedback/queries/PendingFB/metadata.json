@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM public.\"Request_Feedback\"\nWHERE \"Request_Feedback\".\"From_user\"='{{appsmith.user.email}}'\nORDER BY\n\tcreated_at DESC;",
+      "body": "SELECT * FROM public.\"Request_Feedback\"\nWHERE \"Request_Feedback\".\"From_user\"='{{appsmith.user.email}}'\n\tOR \"Request_Feedback\".\"To_user\"='{{appsmith.user.email}}'\nORDER BY\n\tcreated_at DESC;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

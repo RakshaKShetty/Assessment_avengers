@@ -1,1 +1,1 @@
-SELECT * FROM public."ReceivedFB";
+SELECT * FROM public."Request_Feedback"
