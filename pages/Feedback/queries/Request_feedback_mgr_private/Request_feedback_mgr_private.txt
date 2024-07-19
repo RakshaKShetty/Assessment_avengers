@@ -56,16 +56,16 @@
         <div class="logo">
             <img src="{{Image1.image}}" alt="Company Logo">
         </div>
-        <h3>Hi, you've been invited to the {{feedback_users.selectedOptionValues[0]}}: Appsmith | Performance Review |</h3>
+        <h3>Hi, you've been invited to the {{feedback_users.selectedOptionValues[0]}}:Performance Review |</h3>
         <p>Hello,</p>
         <p>You are receiving this notification as you have a part to play in this review.</p>
-        <p>Here's what you need to do:</p>
+        <p>Heres what you need to do:</p>
         <ul>
             <li><strong>Peer Review:</strong> you were nominated as a peer reviewer, please take some time to review your colleagues' achievements and areas of improvement.</li>
         </ul>
         <p>Need Help?</p>
-        <p>If you have any questions or need help with the process, don't hesitate to reach out to Tanya or access the helpful resources available on Notion - What Performance review looks like.</p>
-        <p>Let's work together to make this review process a smooth and enriching experience!</p>
+        <p>If you have any questions or need help with the process, dont hesitate to reach out to Tanya or access the helpful resources available on Notion - What Performance review looks like.</p>
+        <p>Lets work together to make this review process a smooth and enriching experience!</p>
         <div class="button-container">
             <a href="https://internal.appsmith.com/app/assessment-avengers/feedback-6698d5e843d23d0c40dfd115?branch=master" class="button">Link For Review</a>
         </div>
