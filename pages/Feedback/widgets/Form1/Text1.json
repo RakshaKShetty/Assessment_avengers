@@ -2,23 +2,24 @@
   "animateLoading": true,
   "backgroundColor": "",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 4,
+  "bottomRow": 13,
+  "disableLink": true,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
     },
     {
-      "key": "fontFamily"
+      "key": "borderRadius"
     },
     {
-      "key": "borderRadius"
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1.25rem",
+  "fontFamily": "Ubuntu",
+  "fontSize": "1.875rem",
   "fontStyle": "BOLD",
   "hideCard": false,
   "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -26,7 +27,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "6wti2h28kl",
-  "leftColumn": 12,
+  "leftColumn": 8,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -34,11 +35,13 @@
   "mobileLeftColumn": 1.5,
   "mobileRightColumn": 25.5,
   "mobileTopRow": 1,
+  "originalBottomRow": 13,
+  "originalTopRow": 1,
   "overflow": "NONE",
   "parentId": "t075ev692p",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 36,
+  "rightColumn": 64,
   "searchTags": [
     "typography",
     "paragraph",
@@ -49,10 +52,10 @@
     "Suggested",
     "Content"
   ],
-  "text": "Feedback",
+  "text": "Welcome, {{appsmith.user.name || appsmith.user.email}}!\nHave a look at your feedback summary ",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
-  "topRow": 0,
+  "textColor": "#f1f5f9",
+  "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

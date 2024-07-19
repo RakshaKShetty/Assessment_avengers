@@ -67,7 +67,7 @@
         <p>If you have any questions or need help with the process, don't hesitate to reach out to Tanya or access the helpful resources available on Notion - What Performance review looks like.</p>
         <p>Let's work together to make this review process a smooth and enriching experience!</p>
         <div class="button-container">
-            <a href="https://internal.appsmith.com/app/trial-app/feedback-65b78f2d8558d22258bb7e8d?branch=shadab" class="button">Link For Review</a>
+            <a href="https://internal.appsmith.com/app/assessment-avengers/feedback-6698d5e843d23d0c40dfd115?branch=master" class="button">Link For Review</a>
         </div>
     </div>
 </body>

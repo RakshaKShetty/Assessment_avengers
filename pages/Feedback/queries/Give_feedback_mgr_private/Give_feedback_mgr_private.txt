@@ -59,7 +59,7 @@
         <h2>Hi there, {{appsmith.user.username}} has given you a feedback </h2>
        <h3>Please click on the below button to see the detailed feedback</h3>
         <div class="button-container">
-            <a href="https://internal.appsmith.com/app/trial-app/feedback-65b78f2d8558d22258bb7e8d?branch=shadab" class="button">Link For Review</a>
+            <a href="https://internal.appsmith.com/app/assessment-avengers/feedback-6698d5e843d23d0c40dfd115?branch=master" class="button">Link For Review</a>
         </div>
     </div>
 </body>
