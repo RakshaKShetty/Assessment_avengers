@@ -1,1 +1,3 @@
-SELECT * FROM public."ReceivedFB";
+SELECT * FROM public."ReceivedFB"
+WHERE "ReceivedFB"."To_user"='{{appsmith.user.email}}'
+AND "ReceivedFB"."type" IN ('public', 'private', 'private_manager');
