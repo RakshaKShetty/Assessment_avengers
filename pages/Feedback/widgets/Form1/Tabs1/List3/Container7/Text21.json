@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 16,
+  "bottomRow": 8,
   "boxShadow": "none",
   "displayName": "Text",
   "dynamicBindingPathList": [
@@ -19,9 +19,6 @@
     },
     {
       "key": "text"
-    },
-    {
-      "key": "textColor"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -47,7 +44,7 @@
   "parentId": "rkc69z1ve5",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 63,
   "searchTags": [
     "typography",
     "paragraph",
@@ -60,9 +57,9 @@
   ],
   "text": "{{currentItem.FBPrompts}}",
   "textAlign": "LEFT",
-  "textColor": "{{appsmith.theme.colors.primaryColor}}",
+  "textColor": "#231F20",
   "textStyle": "BODY",
-  "topRow": 8,
+  "topRow": 4,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

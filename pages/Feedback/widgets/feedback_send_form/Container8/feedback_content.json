@@ -18,7 +18,7 @@
   "flexVerticalAlignment": "start",
   "hideCard": false,
   "iconSVG": "/static/media/icon.757d7d5aeba566dd0ed4fbdfa932c80a.svg",
-  "inputType": "html",
+  "inputType": "markdown",
   "isDefaultClickDisabled": true,
   "isDeprecated": false,
   "isDisabled": false,

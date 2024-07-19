@@ -1,15 +1,14 @@
 {
   "animateLoading": true,
-  "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 370,
+  "bottomRow": 490,
   "boxShadow": "none",
   "canEscapeKeyClose": true,
   "canOutsideClickClose": true,
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 370,
+      "bottomRow": 490,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -26,11 +25,11 @@
       "isDisabled": false,
       "isLoading": false,
       "isVisible": true,
-      "key": "v4xbwocj3i",
+      "key": "cwykgzixvr",
       "leftColumn": 0,
       "maxDynamicHeight": 9000,
       "minDynamicHeight": 4,
-      "minHeight": 370,
+      "minHeight": 0,
       "minWidth": 450,
       "mobileBottomRow": 0,
       "mobileLeftColumn": 0,
@@ -38,7 +37,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "ppeg4j9coe",
+      "parentId": "j6zblrowoa",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -47,7 +46,7 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "xt2l1rslhp",
+      "widgetId": "uiare7qfo0",
       "widgetName": "Canvas22"
     }
   ],
@@ -55,21 +54,16 @@
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "backgroundColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicTriggerPathList": [],
-  "height": 370,
+  "height": 490,
   "isCanvas": true,
   "isLoading": false,
-  "key": "a4sizfq64h",
+  "key": "hrz6kseky4",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 24,
-  "minHeight": 240,
   "mobileBottomRow": 0,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 0,
@@ -84,7 +78,7 @@
   "topRow": 0,
   "type": "MODAL_WIDGET",
   "version": 2,
-  "widgetId": "ppeg4j9coe",
-  "widgetName": "Modal4",
-  "width": 662
+  "widgetId": "j6zblrowoa",
+  "widgetName": "openFeedback",
+  "width": 456
 }
