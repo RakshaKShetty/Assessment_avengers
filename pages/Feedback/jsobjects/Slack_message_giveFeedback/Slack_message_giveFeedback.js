@@ -51,7 +51,7 @@ async give_feedbackManagerOnly_Slack()
 		let message = "You have received feedback as manager of "
 		const selectedname = feedback_users.selectedOptionValues[0]
 		let detailmessage = feedback_content.text.replace(/<\/?[^>]+(>|$)/g, "")
-							 Give_feedback_SlackAPI.run({ email: email2 ,message :message ,selectedname : selectedname , detailmessage: detailmessage})
+		 Give_feedback_SlackAPI.run({ email: email2 ,message :message ,selectedname : selectedname , detailmessage: detailmessage})
 			
 							
 							}
