@@ -1,5 +1,6 @@
 {
 	"message" :  "Feedback submitted for {{feedback_users.selectedOptionLabels.toString()}} 
-	  {{feedback_content.text.replace(/<\/?[^>]+(>|$)/g, "")}} " ,
+	 ----------------------
+	{{feedback_content.text.replace(/<\/?[^>]+(>|$)/g, "")}} " ,
   "group_id": "C07D87P6FGU"
 },

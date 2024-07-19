@@ -1,4 +1,5 @@
 { "message" : {{this.params.message}} {{this.params.selectedname}} 
- ------------------- {{this.params.detailmessage}},
+ ------------------- 
+ {{this.params.detailmessage}},
   "user_emails": {{this.params.email}}
 }
