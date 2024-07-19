@@ -1,1 +1,4 @@
-SELECT * FROM public."Request_Feedback" WHERE "Request_Feedback"."From_user"='{{appsmith.user.email}}';
+SELECT * FROM public."Request_Feedback"
+WHERE "Request_Feedback"."From_user"='{{appsmith.user.email}}'
+ORDER BY
+	created_at DESC;
