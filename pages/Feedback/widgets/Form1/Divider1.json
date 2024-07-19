@@ -28,8 +28,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "orientation": "horizontal",
-  "originalBottomRow": 17,
-  "originalTopRow": 13,
+  "originalBottomRow": 24,
+  "originalTopRow": 20,
   "parentColumnSpace": 11.578125,
   "parentId": "t075ev692p",
   "parentRowSpace": 10,
