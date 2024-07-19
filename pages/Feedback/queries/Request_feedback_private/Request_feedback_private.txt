@@ -54,9 +54,9 @@
 <body>
     <div class="container">
         <div class="logo">
-            <img src="{{Image1.image}}" alt="Company Logo">
+            <img src="{{Appsmith_image}}" alt="Company Logo">
         </div>
-        <h3>Hi, you have been invited to {{appsmith.user.username}} Performance Review |</h3>
+        <h3>Hi, you have been invited to {{appsmith.user.username}}'s Performance Review </h3>
         <p>Hello,</p>
         <p>You are receiving this notification as you have a part to play in this review.</p>
         <p>Heres what you need to do:</p>
