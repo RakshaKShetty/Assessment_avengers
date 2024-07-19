@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{ \"message\" : {{this.params.message}} {{this.params.selectedname}} \n ------------------- \n {{this.params.detailmessage}},\n  \"user_emails\": {{this.params.email}}\n}",
+      "body": "{ \"message\" : {{this.params.message}} {{this.params.selectedname}} \n ------------------- \n{{this.params.detailmessage}},\n  \"user_emails\": {{this.params.email}}\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

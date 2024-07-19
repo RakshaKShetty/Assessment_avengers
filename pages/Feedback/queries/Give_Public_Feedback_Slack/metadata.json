@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"message\" :  \"Feedback submitted for {{feedback_users.selectedOptionLabels.toString()}} \n\t ----------------------\n\t{{feedback_content.text.replace(/<\\/?[^>]+(>|$)/g, \"\")}} \" ,\n  \"group_id\": \"C07D87P6FGU\"\n},\n",
+      "body": "{\n\t\"message\" :  \"Feedback submitted for {{feedback_users.selectedOptionLabels.toString()}} \n\t ----------------------\n{{feedback_content.text.replace(/<\\/?[^>]+(>|$)/g, \"\")}} \" ,\n  \"group_id\": \"C07D87P6FGU\"\n},\n",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
