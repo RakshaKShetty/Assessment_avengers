@@ -52,7 +52,7 @@
   ],
   "text": "Feedback",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "#0891b2",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

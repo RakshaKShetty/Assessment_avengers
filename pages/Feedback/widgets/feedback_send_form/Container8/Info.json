@@ -59,7 +59,7 @@
   ],
   "text": "This feedback will be shared with {{feedback_type.options.find((option) => option.value === feedback_type.selectedOptionValue)?.description}}",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "#0891b2",
   "topRow": 11,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

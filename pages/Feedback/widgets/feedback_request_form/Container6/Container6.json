@@ -1,13 +1,13 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#FFFFFF",
+  "backgroundColor": "#f1f5f9",
   "borderColor": "#E0DEDE",
   "borderWidth": "",
-  "bottomRow": 87,
+  "bottomRow": 78,
   "boxShadow": "NONE",
   "children": [
     {
-      "bottomRow": 790,
+      "bottomRow": 700,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,

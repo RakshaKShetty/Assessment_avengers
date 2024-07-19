@@ -16,9 +16,14 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1rem",
+  "fontSize": "0.900rem",
   "fontStyle": "",
   "hideCard": false,
   "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -55,7 +60,7 @@
   ],
   "text": "From the recent meeting, project, etc..., what is a strength and focus area to work more effectively with you?",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "#0891b2",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

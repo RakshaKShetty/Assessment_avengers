@@ -35,6 +35,7 @@
   "label": "",
   "labelAlignment": "left",
   "labelPosition": "Top",
+  "labelTextColor": "#0891b2",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 0,

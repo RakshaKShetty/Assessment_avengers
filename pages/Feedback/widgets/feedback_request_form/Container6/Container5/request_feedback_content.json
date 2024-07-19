@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 55,
+  "bottomRow": 46,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "defaultText": "{{JSObj1.defaultValue}}",
   "displayName": "Rich Text Editor",
@@ -56,7 +56,7 @@
   "tags": [
     "Inputs"
   ],
-  "topRow": 35,
+  "topRow": 26,
   "type": "RICH_TEXT_EDITOR_WIDGET",
   "version": 1,
   "widgetId": "qxc424up0d",

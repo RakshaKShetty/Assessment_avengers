@@ -1,13 +1,13 @@
 {
   "animateLoading": true,
-  "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "backgroundColor": "#f1f5f9",
   "borderColor": "#E0DEDE",
   "borderWidth": "1",
-  "bottomRow": 72,
+  "bottomRow": 63,
   "boxShadow": "NONE",
   "children": [
     {
-      "bottomRow": 570,
+      "bottomRow": 480,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
@@ -35,11 +35,7 @@
   ],
   "containerStyle": "card",
   "displayName": "Container",
-  "dynamicBindingPathList": [
-    {
-      "key": "backgroundColor"
-    }
-  ],
+  "dynamicBindingPathList": [],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
