@@ -1,6 +1,6 @@
 {
   "animateLoading": true,
-  "backgroundColor": "white",
+  "backgroundColor": "#f1f5f9",
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
@@ -65,6 +65,7 @@
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "hideCard": false,
   "iconSVG": "/static/media/icon.daebf68875b6c8e909e9e8ac8bee0c02.svg",

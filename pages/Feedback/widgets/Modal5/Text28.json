@@ -7,9 +7,6 @@
       "key": "truncateButtonColor"
     },
     {
-      "key": "fontFamily"
-    },
-    {
       "key": "borderRadius"
     },
     {
@@ -18,13 +15,13 @@
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontFamily": "Poppins",
   "fontSize": "1.25rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
-  "key": "r5p7bve4dq",
-  "leftColumn": 1,
+  "key": "97luvbezx2",
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -33,19 +30,21 @@
   "mobileRightColumn": 41,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
+  "originalBottomRow": 7,
+  "originalTopRow": 1,
   "overflow": "NONE",
-  "parentId": "uiare7qfo0",
+  "parentId": "liu9y7xy51",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 41,
+  "rightColumn": 23,
   "shouldTruncate": false,
-  "text": "What is your feedback?",
+  "text": "Detailed View",
   "textAlign": "LEFT",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "r1vfnjaujg",
-  "widgetName": "Text25"
+  "widgetId": "jh4ox85bwv",
+  "widgetName": "Text28"
 }

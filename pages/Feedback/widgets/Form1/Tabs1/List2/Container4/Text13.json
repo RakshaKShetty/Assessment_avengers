@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 16,
+  "bottomRow": 10,
   "boxShadow": "none",
   "displayName": "Text",
   "dynamicBindingPathList": [
@@ -44,7 +44,7 @@
   "parentId": "yxgymprcuz",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 41,
   "searchTags": [
     "typography",
     "paragraph",
@@ -57,7 +57,7 @@
   ],
   "text": "{{currentItem.FB}}",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "#0891b2",
   "textStyle": "BODY",
   "topRow": 4,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",

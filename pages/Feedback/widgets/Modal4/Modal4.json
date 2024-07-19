@@ -1,15 +1,14 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#f1f5f9",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 490,
+  "bottomRow": 250,
   "boxShadow": "none",
   "canEscapeKeyClose": true,
   "canOutsideClickClose": true,
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 490,
+      "bottomRow": 250,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -26,7 +25,7 @@
       "isDisabled": false,
       "isLoading": false,
       "isVisible": true,
-      "key": "cwykgzixvr",
+      "key": "if4rpn04u0",
       "leftColumn": 0,
       "maxDynamicHeight": 9000,
       "minDynamicHeight": 4,
@@ -38,7 +37,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "j6zblrowoa",
+      "parentId": "kywed5901m",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -47,8 +46,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "uiare7qfo0",
-      "widgetName": "Canvas22"
+      "widgetId": "1o1730ja08",
+      "widgetName": "Canvas23"
     }
   ],
   "detachFromLayout": true,
@@ -58,14 +57,14 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicTriggerPathList": [],
-  "height": 490,
+  "height": 250,
   "isCanvas": true,
   "isLoading": false,
-  "key": "hrz6kseky4",
+  "key": "ww4l0cmx23",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 24,
+  "minHeight": 240,
   "mobileBottomRow": 0,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 0,
@@ -80,7 +79,7 @@
   "topRow": 0,
   "type": "MODAL_WIDGET",
   "version": 2,
-  "widgetId": "j6zblrowoa",
-  "widgetName": "openFeedback",
+  "widgetId": "kywed5901m",
+  "widgetName": "Modal4",
   "width": 456
 }
