@@ -1,1 +1,1 @@
-SELECT * FROM public."employee";
+SELECT * FROM public."employee" WHERE email_id != '{{appsmith.user.email}}';
