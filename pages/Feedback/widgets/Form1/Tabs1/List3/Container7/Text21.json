@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 26,
+  "bottomRow": 16,
   "boxShadow": "none",
   "displayName": "Text",
   "dynamicBindingPathList": [
@@ -19,6 +19,9 @@
     },
     {
       "key": "text"
+    },
+    {
+      "key": "textColor"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -57,7 +60,7 @@
   ],
   "text": "{{currentItem.FBPrompts}}",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "textStyle": "BODY",
   "topRow": 8,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",

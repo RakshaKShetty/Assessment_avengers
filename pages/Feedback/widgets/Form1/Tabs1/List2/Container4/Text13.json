@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 16,
+  "bottomRow": 11,
   "boxShadow": "none",
   "displayName": "Text",
   "dynamicBindingPathList": [
@@ -47,7 +47,7 @@
   "parentId": "yxgymprcuz",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 46,
   "searchTags": [
     "typography",
     "paragraph",

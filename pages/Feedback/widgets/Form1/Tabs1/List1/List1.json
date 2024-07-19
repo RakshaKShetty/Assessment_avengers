@@ -7,7 +7,7 @@
     "metaWidgetId"
   ],
   "animateLoading": true,
-  "backgroundColor": "transparent",
+  "backgroundColor": "#f1f5f9",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 128,
   "boxShadow": "none",
@@ -113,7 +113,7 @@
   "mobileLeftColumn": 4,
   "mobileRightColumn": 28,
   "mobileTopRow": 0,
-  "pageSize": 3,
+  "pageSize": 9,
   "parentColumnSpace": 10.55792236328125,
   "parentId": "cnvjliqbly",
   "parentRowSpace": 10,

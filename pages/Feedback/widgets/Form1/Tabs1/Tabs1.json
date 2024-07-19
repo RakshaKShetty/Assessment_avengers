@@ -196,7 +196,7 @@
   "mobileRightColumn": 28,
   "mobileTopRow": 12,
   "onTabSelected": "{{feedback_actions.refreshData()}}",
-  "originalBottomRow": 156,
+  "originalBottomRow": 163,
   "originalTopRow": 21,
   "parentColumnSpace": 11.105224609375,
   "parentId": "t075ev692p",
