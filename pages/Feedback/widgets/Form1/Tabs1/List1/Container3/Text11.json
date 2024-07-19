@@ -40,7 +40,7 @@
   "mobileLeftColumn": 16,
   "mobileRightColumn": 24,
   "mobileTopRow": 4,
-  "overflow": "TRUNCATE",
+  "overflow": "NONE",
   "parentId": "2y5wl0r9nr",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
