@@ -1,8 +1,7 @@
 {
   "animateLoading": true,
-  "backgroundColor": "",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 11,
+  "bottomRow": 8,
   "boxShadow": "none",
   "displayName": "Text",
   "dynamicBindingPathList": [
@@ -13,18 +12,18 @@
       "key": "truncateButtonColor"
     },
     {
+      "key": "fontFamily"
+    },
+    {
       "key": "borderRadius"
     },
     {
       "key": "text"
-    },
-    {
-      "key": "textColor"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
-  "fontFamily": "Poppins",
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "0.875rem",
   "fontStyle": "",
   "hideCard": false,
@@ -45,7 +44,7 @@
   "parentId": "rkc69z1ve5",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 46,
+  "rightColumn": 63,
   "searchTags": [
     "typography",
     "paragraph",
@@ -58,9 +57,9 @@
   ],
   "text": "{{currentItem.FBPrompts}}",
   "textAlign": "LEFT",
-  "textColor": "{{appsmith.theme.colors.primaryColor}}",
+  "textColor": "#231F20",
   "textStyle": "BODY",
-  "topRow": 5,
+  "topRow": 4,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

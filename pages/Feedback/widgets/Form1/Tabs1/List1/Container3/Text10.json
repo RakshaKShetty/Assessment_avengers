@@ -12,6 +12,9 @@
       "key": "truncateButtonColor"
     },
     {
+      "key": "fontFamily"
+    },
+    {
       "key": "borderRadius"
     },
     {
@@ -20,7 +23,7 @@
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
-  "fontFamily": "Poppins",
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1rem",
   "fontStyle": "BOLD",
   "hideCard": false,
@@ -54,7 +57,7 @@
   ],
   "text": "{{currentItem.from}} to {{currentItem.to}}",
   "textAlign": "LEFT",
-  "textColor": "#0891b2",
+  "textColor": "#231F20",
   "textStyle": "HEADING",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",

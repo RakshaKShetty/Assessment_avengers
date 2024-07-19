@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 138,
+  "bottomRow": 172,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -26,7 +26,7 @@
   "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
   "isDeprecated": false,
   "isLoading": false,
-  "isVisible": true,
+  "isVisible": false,
   "key": "lomn6wmaid",
   "leftColumn": 8,
   "maxDynamicHeight": 9000,
@@ -36,8 +36,8 @@
   "mobileLeftColumn": 8,
   "mobileRightColumn": 24,
   "mobileTopRow": 101,
-  "originalBottomRow": 138,
-  "originalTopRow": 134,
+  "originalBottomRow": 163,
+  "originalTopRow": 159,
   "overflow": "NONE",
   "parentColumnSpace": 14.328125,
   "parentId": "0",
@@ -58,7 +58,7 @@
   "text": "{{ManagerEmail.data[0].manager_email}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 134,
+  "topRow": 168,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
