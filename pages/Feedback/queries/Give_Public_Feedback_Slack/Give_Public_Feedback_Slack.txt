@@ -1,4 +1,5 @@
 {
-	"message" :  "Feedback submitted for {{feedback_users.selectedOptionLabels.toString()}} {{feedback_content.text}}" ,
-  "group_id": C06J185QQ9W
+	"message" :  "Feedback submitted for {{feedback_users.selectedOptionLabels.toString()}} 
+	  {{feedback_content.text}}" ,
+  "group_id": "C07D87P6FGU"
 },
