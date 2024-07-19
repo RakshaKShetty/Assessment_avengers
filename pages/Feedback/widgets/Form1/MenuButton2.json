@@ -44,7 +44,7 @@
   "isVisible": true,
   "key": "mtd2bxk2am",
   "label": "Feedback options",
-  "leftColumn": 53,
+  "leftColumn": 45,
   "menuColor": "{{appsmith.theme.colors.primaryColor}}",
   "menuItems": {
     "menuItem1": {
@@ -84,7 +84,7 @@
   "parentRowSpace": 10,
   "placement": "CENTER",
   "renderMode": "CANVAS",
-  "rightColumn": 64,
+  "rightColumn": 62,
   "sourceData": [],
   "tags": [
     "Buttons"
