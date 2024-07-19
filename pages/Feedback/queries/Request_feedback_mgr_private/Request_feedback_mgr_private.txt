@@ -54,7 +54,7 @@
 <body>
     <div class="container">
         <div class="logo">
-            <img src="{{Appsmith_image}}" alt="Company Logo">
+            <img src="https://internal.appsmith.com/api/v1/assets/64802d7d100b590b196f2ce3" alt="Company Logo">
         </div>
         <h3>Hi, you've been invited to {{feedback_users.selectedOptionValues[0]}}'s Performance Review </h3>
         <p>Hello,</p>
