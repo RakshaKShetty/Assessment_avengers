@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM public.\"ReceivedFB\"\nWHERE \"ReceivedFB\".\"To_user\"='{{appsmith.user.email}}'\nAND \"ReceivedFB\".\"type\" IN ('public', 'private', 'private_manager');",
+      "body": "SELECT * FROM public.\"ReceivedFB\";",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,11 +22,7 @@
       "name": "Feedbackdb",
       "pluginId": "postgres-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "executeOnLoad": true,
     "name": "ReceivedFeedbacksQuery",
     "pageId": "Feedback",
