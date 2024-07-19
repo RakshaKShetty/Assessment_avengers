@@ -55,7 +55,7 @@
     "Suggested",
     "Content"
   ],
-  "text": "{{currentItem.to}} from {{currentItem.from}}",
+  "text": "{{currentItem.to}} to {{currentItem.from}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "textStyle": "HEADING",

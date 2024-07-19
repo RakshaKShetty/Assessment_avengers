@@ -181,5 +181,15 @@ export default {
 				to: employees[feedback.To_user]?.name
 			}
 		})
+	},
+	
+	async refreshData() {
+		const received = ReceivedFeedbacksQuery.run();
+		const given = GivenFeedbacksQuery.run();
+		const pending = PendingFB.run();
+		await Promise.all([received, given, pending]);
+		feedback_actions.givenFeedbacks();
+		feedback_actions.pendingFeedbacks();
+		feedback_actions.receivedFeedbacks();
 	}
 }

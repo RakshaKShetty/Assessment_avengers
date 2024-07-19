@@ -195,7 +195,7 @@
   "mobileLeftColumn": 4,
   "mobileRightColumn": 28,
   "mobileTopRow": 12,
-  "onTabSelected": "{{ReceivedFeedbacksQuery.run();\nGivenFeedbacksQuery.run()}}",
+  "onTabSelected": "{{feedback_actions.refreshData()}}",
   "originalBottomRow": 91,
   "originalTopRow": 21,
   "parentColumnSpace": 11.105224609375,
