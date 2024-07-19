@@ -166,6 +166,20 @@ export default {
 			}
 		})
 	},
-	
-	get
+
+	get pendingFeedbacks() {
+		const pending = PendingFB.data;
+		const employees = AllEmployeesQuery.data.reduce((prev, curr) => {
+			prev[curr.email_id] = curr;
+
+			return prev;
+		}, {});
+		return pending.map((feedback) => {
+			return {
+				...feedback,
+				from: employees[feedback.From_user]?.name,
+				to: employees[feedback.To_user]?.name
+			}
+		})
+	}
 }

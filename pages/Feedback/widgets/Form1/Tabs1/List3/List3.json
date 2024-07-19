@@ -105,7 +105,7 @@
   "itemSpacing": 8,
   "key": "o6zobtxmh0",
   "leftColumn": 0,
-  "listData": "{{PendingFB.data}}",
+  "listData": "{{feedback_actions.pendingFeedbacks.data}}",
   "mainCanvasId": "axlul1xkdb",
   "mainContainerId": "irh2wx5pta",
   "minWidth": 450,

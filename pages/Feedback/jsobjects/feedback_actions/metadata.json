@@ -6,11 +6,6 @@
     "pageId": "Feedback",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "variables": [
-      {
-        "name": "get",
-        "value": "get"
-      }
-    ]
+    "variables": []
   }
 }
