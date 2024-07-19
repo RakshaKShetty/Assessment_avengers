@@ -11,7 +11,7 @@
         "command": "SEND",
         "send": {
           "attachments": "",
-          "bcc": "kamakshi@appsmith.com",
+          "bcc": "{{ManagerEmail.data[0].manager_email}}",
           "bodyType": "text/html",
           "cc": "",
           "from": "raksha@appsmith.com",
@@ -35,6 +35,9 @@
       },
       {
         "key": "formData.send.to"
+      },
+      {
+        "key": "formData.send.bcc"
       }
     ],
     "executeOnLoad": false,

@@ -15,7 +15,7 @@
           "cc": "",
           "from": "raksha@appsmith.com",
           "subject": "Feedback request",
-          "to": "kamakshi@appsmith.com"
+          "to": "{{ManagerEmail.data[0].manager_email}}"
         }
       },
       "paginationType": "NONE",
@@ -31,6 +31,9 @@
     "dynamicBindingPathList": [
       {
         "key": "body"
+      },
+      {
+        "key": "formData.send.to"
       }
     ],
     "executeOnLoad": false,
