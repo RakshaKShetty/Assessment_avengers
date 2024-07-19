@@ -26,7 +26,7 @@ export default {
 
 						// Private
 					case feedback_type.options[1].value:{
-						 Give_feedback_private.run()
+						Give_feedback_private.run()
 						return	Slack_message_giveFeedback.give_feedbackPrivateOnly_slack() 
 					}
 
@@ -86,8 +86,8 @@ export default {
 				switch (request_feedback_type.selectedOptionValue) {
 						// Private 
 					case options[0].value: {
-						 Request_feedback_private.run()
-							return Slack_message_requestFeedback.request_feedbackPrivate_Slack()
+						Request_feedback_private.run()
+						return Slack_message_requestFeedback.request_feedbackPrivate_Slack()
 					}
 
 						// Private + Manager
@@ -134,6 +134,8 @@ export default {
 	},
 
 	get receivedFeedbacks() {
+		// TODO: get manager specific queries
+
 		const received = ReceivedFeedbacksQuery.data;
 		const employees = EmployeeDataCopy.data.reduce((prev, curr) => {
 			prev[curr.email_id] = curr;
@@ -148,7 +150,7 @@ export default {
 			}
 		})
 	},
-	
+
 	get givenFeedbacks() {
 		const given = GivenFeedbacksQuery.data;
 		const employees = EmployeeDataCopy.data.reduce((prev, curr) => {

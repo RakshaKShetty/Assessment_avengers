@@ -20,6 +20,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "menuItems.menuItem1.textColor"
     }
   ],
   "dynamicTriggerPathList": [
@@ -45,21 +48,26 @@
   "menuColor": "{{appsmith.theme.colors.primaryColor}}",
   "menuItems": {
     "menuItem1": {
+      "backgroundColor": "#f1f5f9",
       "id": "menuItem1",
       "index": 0,
       "isDisabled": false,
       "isVisible": true,
       "label": "Give Feedback",
       "onClick": "{{showModal(feedback_send_form.name);}}",
+      "textColor": "{{appsmith.theme.colors.primaryColor}}",
       "widgetId": ""
     },
     "menuItem2": {
+      "backgroundColor": "#f1f5f9",
+      "iconColor": "",
       "id": "menuItem2",
       "index": 1,
       "isDisabled": false,
       "isVisible": true,
       "label": "Request Feedback",
       "onClick": "{{showModal(feedback_request_form.name);}}",
+      "textColor": "#0891b2",
       "widgetId": ""
     }
   },
