@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "6698d5e343d23d0c40dfd100_405f9cd8-5f8a-461f-a5ce-cdb854573ec5",
-  "id": "Feedback_ManagerEmailRequest",
+  "gitSyncId": "6698d5e343d23d0c40dfd100_63f84f03-8af9-4bdf-92bc-9911876e360f",
+  "id": "Feedback_AllEmployeesQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT \"employee\".\"manager_email\" FROM public.\"employee\" where email_id IN ({{request_feedback_users.selectedOptionValues})",
+      "body": "SELECT * FROM public.\"employee\";",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -23,8 +23,8 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
-    "name": "ManagerEmailRequest",
+    "executeOnLoad": true,
+    "name": "AllEmployeesQuery",
     "pageId": "Feedback",
     "userSetOnLoad": false
   }

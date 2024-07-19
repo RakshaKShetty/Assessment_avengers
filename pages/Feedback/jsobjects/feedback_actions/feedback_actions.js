@@ -137,7 +137,7 @@ export default {
 		// TODO: get manager specific queries
 
 		const received = ReceivedFeedbacksQuery.data;
-		const employees = EmployeeDataCopy.data.reduce((prev, curr) => {
+		const employees = AllEmployeesQuery.data.reduce((prev, curr) => {
 			prev[curr.email_id] = curr;
 
 			return prev;
@@ -153,11 +153,11 @@ export default {
 
 	get givenFeedbacks() {
 		const given = GivenFeedbacksQuery.data;
-		const employees = EmployeeDataCopy.data.reduce((prev, curr) => {
+		const employees = AllEmployeesQuery.data.reduce((prev, curr) => {
 			prev[curr.email_id] = curr;
 
 			return prev;
-		}, {})
+		}, {});
 		return given.map((feedback) => {
 			return {
 				...feedback,

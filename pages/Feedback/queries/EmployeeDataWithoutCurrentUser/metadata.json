@@ -1,6 +1,6 @@
 {
   "gitSyncId": "6698d5e343d23d0c40dfd100_fe393b0e-9e6b-4459-a08e-0bff8d51dc0b",
-  "id": "Feedback_EmployeeDataCopy",
+  "id": "Feedback_EmployeeDataWithoutCurrentUser",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -28,7 +28,7 @@
       }
     ],
     "executeOnLoad": true,
-    "name": "EmployeeDataCopy",
+    "name": "EmployeeDataWithoutCurrentUser",
     "pageId": "Feedback",
     "userSetOnLoad": false
   }

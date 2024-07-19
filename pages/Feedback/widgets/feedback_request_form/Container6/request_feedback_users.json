@@ -59,7 +59,7 @@
     "tags"
   ],
   "serverSideFiltering": false,
-  "sourceData": "{{EmployeeDataCopy.data}}",
+  "sourceData": "{{EmployeeDataWithoutCurrentUser.data}}",
   "tags": [
     "Select"
   ],

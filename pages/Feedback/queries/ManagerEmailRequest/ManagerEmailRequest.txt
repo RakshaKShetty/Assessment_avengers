@@ -1,1 +1,1 @@
-SELECT "employee"."manager_email" FROM public."employee" where name = '{{request_feedback_users.selectedOptionLabels.toString()}}'
+SELECT "employee"."manager_email" FROM public."employee" where email_id IN ({{request_feedback_users.selectedOptionValues})
