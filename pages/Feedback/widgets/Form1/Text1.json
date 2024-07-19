@@ -27,7 +27,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "6wti2h28kl",
-  "leftColumn": 8,
+  "leftColumn": 6,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -41,7 +41,7 @@
   "parentId": "t075ev692p",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 62,
   "searchTags": [
     "typography",
     "paragraph",
