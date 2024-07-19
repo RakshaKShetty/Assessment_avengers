@@ -26,9 +26,11 @@ export default {
 for (let i = 0; i < a.length; i++) 
 {
   //const b = await Query1.run()
-	  const email =  feedback_users.selectedOptionValues[i]
+	  const email1 =  feedback_users.selectedOptionValues[i]
+		let message1 = "You have received feedback from"
+		const selectedname1 = appsmith.user.username
 		//console.log(email)
-	Give_feedback_SlackAPI.run({email :email})
+	Give_feedback_SlackAPI.run({ email: email1 ,message :message1 ,selectedname : selectedname1})
 }
 		
 	},
